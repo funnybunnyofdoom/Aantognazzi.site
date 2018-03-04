@@ -1,0 +1,171 @@
+<!DOCTYPE html> <!-- This identifies the document type, HTML-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<html>
+
+<head>
+
+
+<style>
+
+
+body {
+	background-color: #ACACAC;
+	text-align:center;
+	padding: 30px;
+}
+
+
+
+.header {
+
+}
+
+.navigationbar {
+	background-color: #C0C0C0;
+	overflow: hidden;
+	float: right;
+}
+
+.navigationbar a {
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 17;
+}
+
+h1 {
+	 color: #5E0002;
+	 font-size: 24px;
+	 text-align: left;
+	 width: 75%;
+}
+hr {
+	border-width: 3px;
+	border-color:#aeaeae;
+}
+
+footer {
+	text-align: left;
+	font-size: 10px;
+}
+
+.lightcolor {color:#aeaeae;}
+.darkcolor {color:#4f4f4f;}
+
+
+</style>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #c0c0c0;">
+<div class="container-fluid" id="navigationbar"> <!-- Navigational bar -->
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#">Anthony Antognazzi</a>
+	</div>	
+	<ul class="nav navbar-nav navbar-right">
+		<li class="active"><a href='#TOP'>Top</a></li>
+		<li><A href="#section1">Projects</a></li>
+		<li><A href="#section2">About Me</a></li>
+		<li><A href="#section3">Contact me</a></li>
+	</ul>
+</div>
+</nav>
+
+
+
+
+<a name="TOP"></a>
+</head>
+
+<body>
+
+
+<div id="mainstrip" style="background-color: #B2B2B2; padding: 25px;">
+
+<div class="header" style="margin: -25px;"> <!-- This is the page title -->
+	
+	<div class="row" style="margin: 25px; background-color: #c0c0c0;">
+			<div class="col-lg-6"><h1>Full-Stack developer versed in Lua, Python, Actionscript 2&3, C++, Java, HTML, CSS, Github, and pastebin.</h1></div>
+			<div class="col-lg-6"><img src="screenshot_1.png"  style="border-radius:25px; border-style:solid; margin: 20px;" /></div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="lightcolor" id="section1" style="background-color: #737373; padding: 25px;">
+	<h2>Projects</h2>
+	<hr></hr>
+	<div class="row">
+		<div class="col-lg-6"><a href="https://www.deviantart.com/art/flash-RPG-experiment-203887923" target="_blank"><img src="screenshot_2.png" style="width: 75%;" /></a></div>
+		<div class="col-lg-6"><a href="https://funnybunnyofdoom.wixsite.com/uugreenvillenc" target="_blank"><img src="screenshot_3.png" style="width: 95%; height: 95%;" /></a></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-lg-6"><a href="http://cancersupportenc.com/" target="_blank"><img src="screenshot_4.png" style="width: 75%;" /></a></div>
+		<div class="col-lg-6"><a href="http://funnybunnyofdoom.wixsite.com/zeonicfoodie" target="_blank"><img src="screenshot_5.png" style="width: 95%; height: 95%;" /></a></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-lg-6"><a href="http://funnybunnyofdoom.wixsite.com/funnythebeast" target="_blank"><img src="screenshot_6.png" style="width: 75%;" /></a></div>
+		<div class="col-lg-6"><a href="http://mshangar.proboards.com/" target="_blank"><img src="screenshot_7.png" style="width: 95%; height: 95%;" /></a></div>
+	</div>
+</div>
+
+<div class="darkcolor" id="section2" style="background-color: #919090; padding: 5px;">
+	<h2>About Me</h2>
+	<p>With an Associates in Software Engineering, I have many years of experience in programming, networking, data entry and Computer Science. I have completed several hobby projects, as well as professional web development. I have a firm understanding of many topics such as Version Control, Algorithms, HTML5, CSS, Bootstrap, APIs, file management and more. </p>
+	
+</div>
+
+<div class="lightcolor" id="section3" style="background-color: #737373; padding: 25px;">
+	<div id="inner" style=" width: 50%; margin: 0 auto;">
+	<h2>Contact Me</h2>
+	<hr></hr>
+	<form id="ContactForm" style="display: table; text-align: left;" novalidate="">
+		<div class="form-item">
+          <label for="“name”">Name:</label>
+		  <br>
+          <input id="name" type="text" placeholder="Name" required=""/>
+        </div>
+        <div class="form-item">
+          <label for="“email”">Email Address:</label>
+		  <br>
+          <input id="email" type="email" placeholder="Email Address" required=""/>
+        </div>
+        <div class="form-item">
+          <label for="“phone”">Phone Number:</label>
+		  <br>
+          <input id="phone" type="tel" placeholder="Phone Number" required=""/>
+        </div>
+        <div class="form-item">
+          <label for="“message”">Message:</label>
+		  <br>
+          <textarea id="message" rows="5" placeholder="Message" required=""></textarea>
+        </div><br/>
+        <button type="submit">Send</button>
+	</form>
+	<p>Please contact me, and I will get back to you as soon as possible. Please no spam.</p>
+	</div>
+</div>
+
+</div>
+
+
+
+
+</body>
+
+<footer>
+	<p>This is the copyright section 2018</p>
+</footer>
+
+</html>
+
